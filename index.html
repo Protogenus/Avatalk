@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatroom</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="draggable-rectangle">
+        <img src="images/avatar1.png" alt="Avatar" id="avatar">
+        <div id="messages"></div>
+    </div>
+    <div class="input-container">
+        <input type="text" id="input-field" placeholder="Type your message...">
+        <button id="submit-button">Send</button>
+    </div>
+    <input type="file" id="avatar-upload" accept="image/*" style="display: none;">
+    <button id="change-avatar-button">Change Avatar</button>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
